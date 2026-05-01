@@ -1,17 +1,17 @@
 <div align="center">
 
-# `Bdl-1989`
+# `~ $ ./bdl --hello`
+
+> **AI Native Engineer** &nbsp;·&nbsp; harness engineering for agentic AI
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│  AI Agents · Physical AI · Edge Hardware · Knowledge Systems │
-└──────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│  Harness Engineering · Agentic AI · Physical AI · Edge · KB      │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
-![Status](https://img.shields.io/badge/status-building-2ea44f?style=flat-square)
-![Focus](https://img.shields.io/badge/focus-Physical%20AI-blue?style=flat-square)
-![Stack](https://img.shields.io/badge/stack-ROS2%20%7C%20MCP%20%7C%20ESP32-orange?style=flat-square)
-![Approach](https://img.shields.io/badge/approach-local--first-lightgrey?style=flat-square)
+![Status](https://img.shields.io/badge/status-building-2ea44f?style=flat-square) ![Direction](https://img.shields.io/badge/direction-Harness%20Engineering-8957e5?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-Agentic%20AI-blue?style=flat-square) ![Stack](https://img.shields.io/badge/stack-ROS2%20%7C%20MCP%20%7C%20ESP32-orange?style=flat-square) ![Approach](https://img.shields.io/badge/approach-local--first-lightgrey?style=flat-square)
 
 </div>
 
@@ -20,24 +20,28 @@
 ## `$ whoami`
 
 ```yaml
-role:        Systems / AI engineer
-direction:   agent runtimes  ⇆  simulation feedback
-                            ⇆  local devices
-                            ⇆  knowledge bases
-goal:        close practical engineering loops
+role:     AI Native Engineer
+method:   harness engineering   # how   — build the runtime / scaffold
+payload:  agentic AI            # what  — runs inside the harness
+loops:
+  ├── agent runtimes   ⇆  simulation feedback
+  ├── local devices    ⇆  knowledge bases
+  └── tools · memory · constraints
+goal:     close practical engineering loops with reusable harnesses
 ```
 
 ---
 
 ## `~/focus`
 
-| Track                 | Description                                                              |
-| :-------------------- | :----------------------------------------------------------------------- |
-| 🤖 **Physical AI**    | Simulation-in-the-loop runtime for repeatable robot behavior development |
-| 🧩 **Agent Eng.**     | MCP tools, runtime feedback, hot deployment, self-iteration              |
-| 📡 **Edge AI / HW**   | ESP32, BLE bridges, local-first device state sync                        |
-| 📚 **Knowledge Eng.** | Ontology-based knowledge bases for richer agent context                  |
-| 🎓 **Learning**       | Model distillation and edge deployment                                   |
+| Track                     | Description                                                              |
+| :------------------------ | :----------------------------------------------------------------------- |
+| 🛠 **Harness Engineering** | Building runtimes / scaffolds that let AI iterate on real systems safely |
+| 🧠 **Agentic AI**          | MCP tools, runtime feedback, hot deployment, self-iteration              |
+| 🤖 **Physical AI**        | Simulation-in-the-loop runtime for repeatable robot behavior development |
+| 📡 **Edge AI / HW**       | ESP32, BLE bridges, local-first device state sync                        |
+| 📚 **Knowledge Eng.**     | Foundry-style semantic layer for agent-facing knowledge bases            |
+| 🎓 **Learning**           | Model distillation and edge deployment                                   |
 
 ---
 
@@ -94,14 +98,16 @@ Syncs work state, permission prompts, recent activity, and token counters.
 
 ### ▍ Ontology-Based Knowledge Base
 
-> Ontology as the organizing layer for agent context.
+> Foundry-style semantic layer for agent-facing knowledge bases.
 
 ```text
-  concepts ─┐
-  relations ├─▶ ontology ─▶ structured context ─▶ agent
-  constraints┤                (vs. doc chunks)
-  process    ┘
+  operational objects ─┐
+  relationships       ├─▶ ontology-backed semantic layer ─▶ agents / apps
+  actions             │
+  governance rules    ┘
 ```
+
+Maps domain operations into an ontology-backed interface so agents can work with business objects, relationships, actions, and governance rules instead of loose document chunks.
 
 ---
 
@@ -122,7 +128,7 @@ Syncs work state, permission prompts, recent activity, and token counters.
 - [ ] `distillation/` — deployable local intelligence
 - [ ] `edge-infer/` — hardware-aware deployment
 - [ ] `sim2real/` — hardware-in-the-loop workflows
-- [ ] `ontology/` — retrieval & domain agent memory
+- [ ] `ontology/` — semantic layer for agent applications
 - [ ] `mcp-ctrl/` — runtime control planes for tools, robots, devices
 
 ---
