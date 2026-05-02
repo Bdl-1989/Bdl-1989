@@ -12,6 +12,7 @@
 
 ![Status](https://img.shields.io/badge/status-building-2ea44f?style=flat-square) ![Direction](https://img.shields.io/badge/direction-Harness%20Engineering-8957e5?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Agentic%20AI-blue?style=flat-square) ![Stack](https://img.shields.io/badge/stack-ROS2%20%7C%20MCP%20%7C%20ESP32-orange?style=flat-square) ![Approach](https://img.shields.io/badge/approach-local--first-lightgrey?style=flat-square)
+[![Org](https://img.shields.io/badge/org-@Kongnitive-181717?style=flat-square&logo=github)](https://github.com/Kongnitive)
 
 </div>
 
@@ -21,6 +22,7 @@
 
 ```yaml
 role:     AI Native Engineer
+org:      @Kongnitive          # owner — github.com/Kongnitive
 method:   harness engineering   # how   — build the runtime / scaffold
 payload:  agentic AI            # what  — runs inside the harness
 loops:
