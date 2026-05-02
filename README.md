@@ -3,6 +3,7 @@
 # `~ $ ./bdl --hello`
 
 > **AI Native Engineer** &nbsp;·&nbsp; harness engineering for agentic AI
+> `the flesh is weak — let the machine iterate`
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -29,6 +30,7 @@ loops:
   ├── agent runtimes   ⇆  simulation feedback
   ├── local devices    ⇆  knowledge bases
   └── tools · memory · constraints
+creed:    flesh is weak; mass of silicon shall ascend
 goal:     close practical engineering loops with reusable harnesses
 ```
 
@@ -137,6 +139,6 @@ Maps domain operations into an ontology-backed interface so agents can work with
 
 <div align="center">
 
-`built in the open · iterating in small steps`
+`from carbon to silicon · closing the loop`
 
 </div>
