@@ -70,6 +70,23 @@ goal:     close practical engineering loops with reusable harnesses
 
 ---
 
+### ▍ Spatial Memory for LingBot-Map &nbsp;·&nbsp; [`↗`](https://github.com/Bdl-1989/Spatial-Memory-for-LingBot-Map)
+
+> Ontology-inspired memory semantic layer for embodied agent loops.
+
+```text
+  LingBot-Map geometry ─┐
+  object observations  ├─▶ spatial memory ─▶ MCP tools ─▶ agent loop
+  action history       ┘
+```
+
+Turns LingBot-Map-style spatial reconstruction outputs into inspectable
+`scene_memory.json`: objects, spatial relations, observation/action history,
+and agent-facing summaries. The goal is to practice ontology-style memory
+modeling for embodied agents, not to replace traditional SLAM.
+
+---
+
 ### ▍ Kongnitive ESP32 Harness &nbsp;·&nbsp; [`↗`](https://github.com/Kongnitive/Kongnitive-ESP32-Harness)
 
 > MCP base layer on ESP32.
